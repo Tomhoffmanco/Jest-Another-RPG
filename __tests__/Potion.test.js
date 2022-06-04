@@ -7,8 +7,6 @@ test("creates a health potion object", () => {
   expect(potion.value).toEqual(expect.any(Number));
 });
 
-// Note that this time, we won't check to see if the potion has the name value of health. If we wanted to, we could have written a test that checks to see if name is health, strength, or agility.
-
 test("creates a random potion object", () => {
   const potion = new Potion();
 
